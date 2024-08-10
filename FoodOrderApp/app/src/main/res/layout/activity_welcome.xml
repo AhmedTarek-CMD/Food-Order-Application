@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pexels_ahmed_123"
+    tools:context=".WelcomeActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/signup2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sign Up"
+            android:layout_margin="8dp"
+            android:backgroundTint="#DAC512"
+            android:textColor="@android:color/black">
+
+        </Button>
+
+        <Button
+            android:id="@+id/signin2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sign In"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/black"
+            android:textColor="@android:color/white">
+
+        </Button>
+
+        <Button
+            android:id="@+id/contactus"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Contact Us"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/coloraccent"
+            android:textColor="#FB0909">
+
+        </Button>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
